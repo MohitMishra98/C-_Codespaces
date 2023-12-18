@@ -23,7 +23,4 @@ void main() {
     else{
         printf("Invalid Number");
     }
-
-    printf("\n\n\n\n\n\n\n");
-    
 }

@@ -17,5 +17,4 @@ void main() {
     else{
         printf("%d No",a);
     }
-    printf("\n\n\n\n");
 }
