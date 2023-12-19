@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//WAP to to get a no from use and print same in words
+
 void main() {
     int a;
     printf("Enter a number :");

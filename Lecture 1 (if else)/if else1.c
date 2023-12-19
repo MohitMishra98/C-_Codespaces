@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//WAP to get number from user and check it is a Positive or Negative Number
+
 void main() {
     int a;
     printf("Enter a number :");

@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+//get a number from user and check for ly
+
 void main() {
     int a;
     printf("Enter a Number :");
