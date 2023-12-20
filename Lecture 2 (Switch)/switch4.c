@@ -13,5 +13,4 @@ void main() {
     } else {
         printf("Consonant");
     }
-    printf("\n\n");
 }
