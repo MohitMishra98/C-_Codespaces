@@ -3,6 +3,9 @@
 void main(){
     int i=1,a,b=1;
 
+    //while making a loop used for multiplications numbers declare a variable starting with 1
+    //as 1*n=n
+
     printf("Enter a number : ");
     scanf("%d",&a);
 
