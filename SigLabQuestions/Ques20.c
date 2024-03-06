@@ -26,7 +26,7 @@ void main(){
     r=0;
     n=b;
 
-    //
+    //loop to calculate (sum of ((individual digits)^number of digits))
     while(n!=0){
         r=n%10;
         temp=getpow(r,a);
@@ -54,24 +54,10 @@ int getpow(int s,int k){
     return num;
 }
 
-
-
-
-
 /*
 1.get the number from user
 2.check the number of digits
 3.extract all the digits
 4.add all the numbers to the power of number of digits
 5.if original number is same as the new number then it is armstrong number
-
-
-
-
-
-void main(){
-    int a;
-    a=pow(3,4);
-    printf("%d",a);
-}
 */
