@@ -1,3 +1,4 @@
+//WAP to get 9 elements in a 3x3 matrix and print all the elements in the form of a matrix
 #include<stdio.h>
 
 void main(){
