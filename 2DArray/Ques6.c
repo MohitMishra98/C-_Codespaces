@@ -1,4 +1,4 @@
-//WAP to get 9 elements in a 3x3 matrix and print all the diagonal elements
+//WAP to get 9 elements in a 3x3 matrix and print transpose of the matrix
 #include<stdio.h>
 
 void main(){
@@ -13,22 +13,12 @@ void main(){
         }
     }
 
+    printf("Transpose of the matrix is : \n");
+
     for(i=0;i<3;i++){
-        printf("%d ",a[i][i]);
+        for(j=0;j<3;j++){
+            printf("%d ",a[j][i]);
+        }
+        printf("\n");
     }
 }
-
-/*
-to print reverse diagonal elements
-
-for(i=0,j=2;i<3;i++,j++){
-    printf("%d\n",a[i][j]);
-}
-
-OR
-
-for(i=0;i<3;i++){
-    printf("%d",a[i][2-i])
-}
-
-*/
